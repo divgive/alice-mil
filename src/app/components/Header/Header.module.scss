@@ -1,9 +1,9 @@
 .header {
-  padding: 28px 0;
   .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 28px 0;
     border-bottom: 1px solid var(--separator-color);
   }
   .burger {
@@ -13,9 +13,20 @@
     font-size: 27px;
     font-weight: var(--bold);
   }
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  .nav {
+    padding-left: 28px;
+    border-left: 1px solid var(--separator-color);
+  }
   .navLink {
     font-size: 14px;
     font-weight: var(--bold);
+    &:hover {
+      opacity: 0.8;
+    }
   }
   .hireMe {
     margin-left: 170px;

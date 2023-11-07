@@ -21,9 +21,11 @@ export function Header() {
             <span className={styles.name}>Alice Mil</span>
           </div>
           <div className={styles.actions}>
-            <Link className={styles.navLink} href="/portfolio">
-              Portfolio
-            </Link>
+            <nav className={styles.nav}>
+              <Link className={styles.navLink} href="/portfolio">
+                Portfolio
+              </Link>
+            </nav>
             <Button className={styles.hireMe}>Hire me!</Button>
           </div>
         </div>
